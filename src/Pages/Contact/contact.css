@@ -1,0 +1,13 @@
+.glob{
+    background-color: #2261CB;
+    height: 100vh;
+    padding: 30px;
+}
+
+.h1{
+    width: 600px;
+    margin: auto;
+    background-color: aliceblue;
+    color: #2261CB;
+    text-align: center;
+}

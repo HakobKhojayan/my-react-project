@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    width: 100%;
+    background-color: grey;
+}
+
+.li2{
+    text-decoration: none;
+    color: red;
+
+    font-size: 25px;
+    padding: 25px;
+}
+
+.ul{
+    display: flex;
+    justify-content: space-around;
+        list-style: none;
+}
+
+.li2:hover{
+background-color: plum;
+color: black;
+}
+
+.li1{
+    text-decoration: none;
+    color: pink;
+    font-size: 25px;
+    padding: 25px;
+}

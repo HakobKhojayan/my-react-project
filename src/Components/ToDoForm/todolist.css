@@ -1,0 +1,25 @@
+.form1 {
+    background-color: white;
+    width: 400px;
+    height: 70px;
+    border-radius: 4px;
+    margin: 40px auto;
+}
+
+.but {
+    background-color: #2261CB;
+    color: aliceblue;
+    font-size: 20px;
+    border-radius: 8px;
+    width: 46px;
+    height: 32px;
+}
+
+.inp {
+    border-color: #2261CB;
+    border-radius: 8px;
+    font-size: 20px;
+    margin: 20px;
+    width: 294px;
+    height: 32px;
+}

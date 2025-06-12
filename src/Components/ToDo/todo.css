@@ -1,0 +1,17 @@
+.toDo {
+    width: 400px;
+    background-color: #C7E0E2;
+    border-radius: 4px;
+    margin: 10px auto;
+    display: flex;
+    height: 40px;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.x{
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
