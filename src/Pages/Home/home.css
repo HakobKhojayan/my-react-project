@@ -1,16 +1,26 @@
-.homediv{
-    width: 100%;
-    background-color: red;
-    height: 100px;
-    margin-top: 20px;
+.globh {
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
 }
 
-.homeh{
-    text-align: center;
-    padding: 30px;
+.ballet {
+    width: 300px;
+    height: 300px;
 }
 
-.imghome{
-    width: 100%;
-    margin-top: 20px;
+.div1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.a {
+    transition: 2s;
+}
+
+.a:hover {
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
 }
