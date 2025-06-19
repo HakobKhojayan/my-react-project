@@ -1,16 +1,18 @@
-.div {
-    width: 100%;
-    background-color: yellow;
-    height: 100px;
-    margin-top: 20px;
+.wrap{
+    position:relative;
+    max-width: 600px;
+    margin: 140px auto;
 }
 
-.h {
-    text-align: center;
-    padding: 30px;
+.card{
+    display: flex;
+    padding: 20px;
+    box-shadow: 0 0 0 5px rgb(71, 111, 111);
+    margin: 0 20px 20px 20px;
 }
 
-.img {
-    width: 100%;
-    margin-top: 20px;
+.card-image{
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
 }

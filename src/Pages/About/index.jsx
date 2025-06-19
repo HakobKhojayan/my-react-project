@@ -1,13 +1,19 @@
 import "./about.css"
-import Tom_Jerry from "../../assets/img2.jpg"
+import galaktika from "../../assets/yupiter.jpg"
+import Title from "../../Components/Title/Title"
+
 
 export default function About() {
     return (
-        <div>
-            <div className="div">
-                <h1 className="h">ABOUT</h1>
+        <div className="about">
+            <div className="wrap">
+                <div className="card">
+                    <div className="card-image">
+                        <img src={galaktika} alt="galaktika"/>
+                        <Title/>
+                    </div>
+                </div>
             </div>
-            <img src={Tom_Jerry} alt="tomjerry" className="img"/>
         </div>
     )
 }
