@@ -3,7 +3,8 @@ import { aboutRecuder } from "./about/reducer";
 
 
 const rootReducer = combineReducers({
-    text: aboutRecuder
+    text: aboutRecuder,
+    likes: aboutRecuder
 })
 
 export default rootReducer
