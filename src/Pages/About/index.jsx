@@ -2,6 +2,7 @@ import "./about.css"
 import galaktika from "../../assets/yupiter.jpg"
 import Title from "../../Components/Title/Title"
 import Likes from "../../Components/Likes/Likes"
+import Comments from "../../Components/Comments/Comments"
 
 
 export default function About() {
@@ -14,6 +15,7 @@ export default function About() {
                         <Title />
                         <Likes />
                     </div>
+                    <Comments />
                 </div>
             </div>
         </div>
