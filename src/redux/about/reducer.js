@@ -1,8 +1,9 @@
-import { DECREMENT, INCREMENT, INPUT_TEXT } from "./types";
+import { COMMENT_DELETE, COMMNET_CREATE, DECREMENT, INCREMENT, INPUT_TEXT } from "./types";
 
 const initialState = {
     text: '',
-    likes: 0
+    likes: 0,
+    comments: []
 }
 
 export const aboutRecuder = (state = initialState, action) => {
@@ -19,6 +20,24 @@ export const aboutRecuder = (state = initialState, action) => {
             return {
                 ...state, likes: state.likes - 1
             }
+        case COMMNET_CREATE:
+            return {
+                ...state, comments: [...state.comments, action.data]
+            }
+        case COMMENT_DELETE:
+            return (() => {
+                const { id } = action;
+                const { comments } = state;
+                const itemIndex = comments.findIndex(res => res.id === id)
+
+                const nextComments = [
+                    ...comments.slice(0, itemIndex),
+                    ...comments.slice(itemIndex + 1)
+                ];
+                return {
+                    ...state, comments: nextComments
+                }
+            })();
         default: return state
     }
 
